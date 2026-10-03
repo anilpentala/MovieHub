@@ -1,0 +1,35 @@
+.page-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.page-container h1 {
+  margin: 0;
+  padding: 20px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.message,
+.error-message {
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+}
+
+.message {
+  color: #cbd5e1;
+}
+
+.error-message {
+  color: #ef4444;
+}
+
+@media (max-width: 600px) {
+  .page-container h1 {
+    padding: 15px 12px;
+    font-size: 22px;
+  }
+}
